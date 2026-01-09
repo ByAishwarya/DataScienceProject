@@ -1,0 +1,41 @@
+# Core Data Science Libraries
+numpy
+pandas
+scipy
+math
+
+# Data Visualization
+matplotlib
+seaborn
+plotly
+
+# Machine Learning - Core
+scikit-learn
+
+# Machine Learning - Advanced Models
+xgboost
+
+
+# Handling Imbalanced Data
+imbalanced-learn
+
+# Model Interpretation
+shap
+
+# Jupyter Environment
+jupyter
+notebook
+ipykernel
+ipywidgets
+
+# Progress Bars
+tqdm
+
+# Utilities
+joblib
+python-dateutil
+
+# Optional but Useful
+statsmodels # For statistical tests
+optuna      # For advanced hyperparameter tuning
+mlxtend     # For additional ML utilities
