@@ -1,0 +1,61 @@
+{
+  "target": "popularity",
+  "features_scaled": [
+    "duration_ms",
+    "duration_min",
+    "loudness",
+    "tempo",
+    "tempo_log",
+    "track_genre",
+    "energy_x_danceability",
+    "loudness_x_energy",
+    "valence_x_danceability"
+  ],
+  "features_binary": [
+    "explicit",
+    "mode",
+    "is_instrumental",
+    "has_vocals",
+    "is_speech_heavy"
+  ],
+  "features_bounded": [
+    "danceability",
+    "energy",
+    "speechiness",
+    "acousticness",
+    "instrumentalness",
+    "liveness",
+    "valence"
+  ],
+  "features_ordinal": [
+    "duration_category",
+    "key",
+    "time_signature"
+  ],
+  "all_features": [
+    "duration_ms",
+    "explicit",
+    "danceability",
+    "energy",
+    "key",
+    "loudness",
+    "mode",
+    "speechiness",
+    "acousticness",
+    "instrumentalness",
+    "liveness",
+    "valence",
+    "tempo",
+    "time_signature",
+    "duration_min",
+    "energy_x_danceability",
+    "loudness_x_energy",
+    "valence_x_danceability",
+    "is_instrumental",
+    "has_vocals",
+    "is_speech_heavy",
+    "tempo_log",
+    "duration_category",
+    "track_genre"
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "full": [
+    "duration_ms",
+    "explicit",
+    "danceability",
+    "energy",
+    "key",
+    "loudness",
+    "mode",
+    "speechiness",
+    "acousticness",
+    "instrumentalness",
+    "liveness",
+    "valence",
+    "tempo",
+    "time_signature",
+    "duration_min",
+    "energy_x_danceability",
+    "loudness_x_energy",
+    "valence_x_danceability",
+    "is_instrumental",
+    "has_vocals",
+    "is_speech_heavy",
+    "tempo_log",
+    "duration_category",
+    "track_genre"
+  ],
+  "reduced": [
+    "explicit",
+    "danceability",
+    "key",
+    "loudness",
+    "mode",
+    "speechiness",
+    "acousticness",
+    "instrumentalness",
+    "liveness",
+    "tempo",
+    "loudness_x_energy",
+    "is_speech_heavy",
+    "track_genre"
+  ],
+  "top": [
+    "track_genre",
+    "loudness_x_energy",
+    "acousticness",
+    "explicit",
+    "danceability",
+    "speechiness",
+    "loudness",
+    "liveness",
+    "energy_x_danceability",
+    "instrumentalness",
+    "mode",
+    "is_instrumental"
+  ],
+  "removed": [
+    "duration_ms",
+    "duration_min",
+    "energy",
+    "time_signature",
+    "valence",
+    "valence_x_danceability",
+    "energy_x_danceability",
+    "duration_category",
+    "is_instrumental",
+    "has_vocals",
+    "tempo_log"
+  ],
+  "feature_rankings": [
+    {
+      "feature": "track_genre",
+      "avg_rank": 1.0
+    },
+    {
+      "feature": "loudness_x_energy",
+      "avg_rank": 6.0
+    },
+    {
+      "feature": "acousticness",
+      "avg_rank": 6.333333333333333
+    },
+    {
+      "feature": "explicit",
+      "avg_rank": 8.333333333333334
+    },
+    {
+      "feature": "danceability",
+      "avg_rank": 8.333333333333334
+    },
+    {
+      "feature": "speechiness",
+      "avg_rank": 8.666666666666666
+    },
+    {
+      "feature": "loudness",
+      "avg_rank": 8.666666666666666
+    },
+    {
+      "feature": "liveness",
+      "avg_rank": 9.333333333333334
+    },
+    {
+      "feature": "energy_x_danceability",
+      "avg_rank": 9.666666666666666
+    },
+    {
+      "feature": "instrumentalness",
+      "avg_rank": 10.0
+    },
+    {
+      "feature": "mode",
+      "avg_rank": 13.333333333333334
+    },
+    {
+      "feature": "is_instrumental",
+      "avg_rank": 13.666666666666666
+    },
+    {
+      "feature": "valence",
+      "avg_rank": 14.0
+    },
+    {
+      "feature": "has_vocals",
+      "avg_rank": 14.333333333333334
+    },
+    {
+      "feature": "energy",
+      "avg_rank": 14.666666666666666
+    },
+    {
+      "feature": "tempo",
+      "avg_rank": 15.0
+    },
+    {
+      "feature": "key",
+      "avg_rank": 15.333333333333334
+    },
+    {
+      "feature": "valence_x_danceability",
+      "avg_rank": 16.0
+    },
+    {
+      "feature": "tempo_log",
+      "avg_rank": 16.333333333333332
+    },
+    {
+      "feature": "duration_ms",
+      "avg_rank": 16.5
+    },
+    {
+      "feature": "duration_min",
+      "avg_rank": 16.5
+    },
+    {
+      "feature": "time_signature",
+      "avg_rank": 16.666666666666668
+    },
+    {
+      "feature": "duration_category",
+      "avg_rank": 17.333333333333332
+    },
+    {
+      "feature": "is_speech_heavy",
+      "avg_rank": NaN
+    }
+  ]
+}
