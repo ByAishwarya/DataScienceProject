@@ -2,7 +2,6 @@
 numpy
 pandas
 scipy
-math
 
 # Data Visualization
 matplotlib
