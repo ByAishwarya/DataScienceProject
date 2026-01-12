@@ -27,45 +27,43 @@
   ],
   "reduced": [
     "explicit",
-    "danceability",
     "key",
     "loudness",
     "mode",
     "speechiness",
     "acousticness",
-    "instrumentalness",
     "liveness",
     "tempo",
     "loudness_x_energy",
     "is_speech_heavy",
+    "tempo_log",
+    "duration_category",
     "track_genre"
   ],
   "top": [
-    "track_genre",
-    "loudness_x_energy",
-    "acousticness",
     "explicit",
-    "danceability",
-    "speechiness",
-    "loudness",
-    "liveness",
-    "energy_x_danceability",
-    "instrumentalness",
+    "key",
     "mode",
-    "is_instrumental"
+    "speechiness",
+    "acousticness",
+    "liveness",
+    "tempo",
+    "loudness_x_energy",
+    "tempo_log",
+    "track_genre"
   ],
   "removed": [
-    "duration_ms",
-    "duration_min",
+    "energy_x_danceability",
     "energy",
+    "is_instrumental",
+    "danceability",
+    "has_vocals",
+    "duration_ms",
+    "instrumentalness",
+    "duration_min",
     "time_signature",
     "valence",
-    "valence_x_danceability",
-    "energy_x_danceability",
-    "duration_category",
-    "is_instrumental",
-    "has_vocals",
-    "tempo_log"
+    "valence_x_danceability"
   ],
   "feature_rankings": [
     {
@@ -73,92 +71,92 @@
       "avg_rank": 1.0
     },
     {
-      "feature": "loudness_x_energy",
-      "avg_rank": 6.0
-    },
-    {
-      "feature": "acousticness",
-      "avg_rank": 6.333333333333333
-    },
-    {
       "feature": "explicit",
-      "avg_rank": 8.333333333333334
+      "avg_rank": 5.0
     },
     {
-      "feature": "danceability",
-      "avg_rank": 8.333333333333334
-    },
-    {
-      "feature": "speechiness",
-      "avg_rank": 8.666666666666666
+      "feature": "loudness_x_energy",
+      "avg_rank": 5.0
     },
     {
       "feature": "loudness",
-      "avg_rank": 8.666666666666666
+      "avg_rank": 8.0
     },
     {
-      "feature": "liveness",
-      "avg_rank": 9.333333333333334
+      "feature": "speechiness",
+      "avg_rank": 8.5
     },
     {
-      "feature": "energy_x_danceability",
-      "avg_rank": 9.666666666666666
-    },
-    {
-      "feature": "instrumentalness",
-      "avg_rank": 10.0
-    },
-    {
-      "feature": "mode",
-      "avg_rank": 13.333333333333334
+      "feature": "acousticness",
+      "avg_rank": 8.5
     },
     {
       "feature": "is_instrumental",
-      "avg_rank": 13.666666666666666
+      "avg_rank": 9.0
     },
     {
-      "feature": "valence",
-      "avg_rank": 14.0
+      "feature": "instrumentalness",
+      "avg_rank": 9.5
+    },
+    {
+      "feature": "mode",
+      "avg_rank": 10.0
     },
     {
       "feature": "has_vocals",
-      "avg_rank": 14.333333333333334
+      "avg_rank": 10.5
     },
     {
-      "feature": "energy",
-      "avg_rank": 14.666666666666666
+      "feature": "liveness",
+      "avg_rank": 10.5
     },
     {
-      "feature": "tempo",
-      "avg_rank": 15.0
+      "feature": "danceability",
+      "avg_rank": 11.0
+    },
+    {
+      "feature": "energy_x_danceability",
+      "avg_rank": 12.5
     },
     {
       "feature": "key",
-      "avg_rank": 15.333333333333334
+      "avg_rank": 14.0
     },
     {
-      "feature": "valence_x_danceability",
-      "avg_rank": 16.0
-    },
-    {
-      "feature": "tempo_log",
-      "avg_rank": 16.333333333333332
-    },
-    {
-      "feature": "duration_ms",
-      "avg_rank": 16.5
-    },
-    {
-      "feature": "duration_min",
-      "avg_rank": 16.5
+      "feature": "tempo",
+      "avg_rank": 14.5
     },
     {
       "feature": "time_signature",
-      "avg_rank": 16.666666666666668
+      "avg_rank": 15.5
     },
     {
       "feature": "duration_category",
-      "avg_rank": 17.333333333333332
+      "avg_rank": 15.5
+    },
+    {
+      "feature": "tempo_log",
+      "avg_rank": 16.0
+    },
+    {
+      "feature": "duration_min",
+      "avg_rank": 17.75
+    },
+    {
+      "feature": "valence",
+      "avg_rank": 18.0
+    },
+    {
+      "feature": "valence_x_danceability",
+      "avg_rank": 18.0
+    },
+    {
+      "feature": "duration_ms",
+      "avg_rank": 18.25
+    },
+    {
+      "feature": "energy",
+      "avg_rank": 19.5
     },
     {
       "feature": "is_speech_heavy",
